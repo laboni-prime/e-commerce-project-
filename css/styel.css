@@ -1,0 +1,95 @@
+.text{
+    gap: 20px;
+    display: flex;
+    margin: 10px;
+    border: 10px;
+    margin-top: 5px;
+    padding: 50px;
+    background-color: rgb(245, 224, 198);
+}
+.button{
+    background-color: crimson;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px;
+    gap: 10px;
+}
+.customise img{
+    height: 300px;
+    object-fit: contain;
+
+}
+.form{
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+    background-color: rgb(196, 243, 227);
+}
+.border{
+    border-radius:10px;
+    border-color: black;
+    background-color: beige;
+    margin: 20px;
+}
+.border2{
+    border-radius:10px;
+    border-color: black;
+    background-color: bisque;
+}
+.container{
+    gap: 100px;
+    display: flex;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: beige;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+
+}
+.paral{
+    margin: 20px;
+    border-radius: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.copyright.d-flex {
+    background: #343A40;
+    color: #fff;
+}
+
+.footer-area {
+    background: #212529;
+    padding: 50px 0;
+    color: #fff;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.single-footer h5 {
+    margin-bottom: 15px;
+}
+.single-category {
+    position: relative;
+}
+
+.category-content {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+.category-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
